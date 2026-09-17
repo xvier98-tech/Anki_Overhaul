@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and runtime traces
+runtime_debug.log
+*.log
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Editor and System files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.gemini/
+user_files/
+assets/sounds/.cache/
+.cache/

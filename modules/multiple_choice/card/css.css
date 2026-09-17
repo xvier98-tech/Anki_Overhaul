@@ -1,0 +1,48 @@
+.card {
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+.small {
+  font-size: 15px;
+}
+
+table, td, th {
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+table {
+  display: inline-block;
+  text-align: left;
+}
+
+label {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.4em;
+}
+
+.correct {
+  background-color: lime;
+}
+
+.nightMode .correct {
+  background-color: #009900;
+}
+
+.wrong {
+  background-color: OrangeRed;
+}
+
+.hidden {
+  font-weight: bold;
+  display: block;
+  line-height: 0;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}

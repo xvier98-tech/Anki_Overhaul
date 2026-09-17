@@ -1,0 +1,81 @@
+{
+  "theme": {
+    "enabled": true,
+    "preset": "oled_dark",
+    "custom_overrides": {}
+  },
+  "priority_sequencer": {
+    "deck_priorities": {},
+    "default_priority": 100,
+    "random_tie_breaker": true,
+    "randomize_cards_within_deck": false,
+    "auto_reorder_on_profile_open": false,
+    "auto_reorder_on_sync": false
+  },
+  "dashboard": {
+    "enabled": true,
+    "show_on_overview": true,
+    "show_on_deck_browser": true,
+    "show_daily_goals": true,
+    "show_deck_composition": true,
+    "show_today_progress": true,
+    "show_remaining": true,
+    "show_done_today": true,
+    "include_new_in_remaining_total": true,
+    "hide_native_msg_box": false,
+    "card_opacity": 95,
+    "layout_columns": 3
+  },
+  "pomodoro": {
+    "enabled": true,
+    "work_duration_minutes": 25,
+    "short_break_minutes": 5,
+    "long_break_minutes": 15,
+    "long_break_interval": 4,
+    "soft_break_mode": true,
+    "inactivity_detection": true,
+    "inactivity_timeout_seconds": 60,
+    "auto_pause_outside_reviewer": true,
+    "auto_pause_on_card_edit": true,
+    "sound_notifications": true,
+    "sound_preset": "bell",
+    "sound_volume": 100,
+    "break_sound_volume": 100,
+    "alarm_sound_volume": 100,
+    "custom_sound_path": "",
+    "auto_advance_enabled": false,
+    "auto_show_answer_seconds": 20,
+    "auto_answer_again_seconds": 8,
+    "deck_profiles": {},
+    "hotkeys": {
+      "toggle_pause": "Alt+P",
+      "skip_to_break": "Alt+S",
+      "reset_cycle": "Alt+R"
+    }
+  },
+  "ankiconnect": {
+    "apiKey": null,
+    "apiLogPath": null,
+    "webBindAddress": "127.0.0.1",
+    "webBindPort": 8765,
+    "webCorsOrigin": null,
+    "webCorsOriginList": ["http://localhost", "app://obsidian.md"]
+  },
+  "multiple_choice": {
+    "maxQuestionsToShow": 5,
+    "colorQuestionTable": false,
+    "colorAnswerTable": true,
+    "hideAnswerTable": false,
+    "answerColoring": {
+      "rightAnswerColor": "#4ade80",
+      "wrongAnswerColor": "#ef4444"
+    }
+  },
+  "image_search": {
+    "enabled": true,
+    "default_engine": "all",
+    "shortcut": "Ctrl+Shift+I",
+    "max_results": 50,
+    "safe_search": false
+  }
+}

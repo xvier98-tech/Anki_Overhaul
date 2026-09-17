@@ -1,0 +1,6 @@
+{
+  "name": "Deck Priority & Closed Block New Card Sequencer",
+  "package": "deck_priority_block_sequencer",
+  "min_point_version": 45,
+  "max_point_version": 249999
+}
